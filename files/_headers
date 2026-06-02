@@ -1,0 +1,9 @@
+/*
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: *
+  Access-Control-Allow-Methods: GET, POST, OPTIONS
+  Content-Security-Policy: default-src 'self' 'unsafe-inline' 'unsafe-eval' https: data: blob:;
+  X-Frame-Options: SAMEORIGIN
+
+/index.html
+  Cache-Control: no-cache
