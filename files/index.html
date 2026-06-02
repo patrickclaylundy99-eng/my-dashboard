@@ -250,18 +250,6 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
       <div class="stats-row" id="statsRow"></div>
       <div class="sec-title">Your projects</div>
       <div class="proj-cards" id="homeCards"></div>
-      <div class="sec-title">API Key</div>
-      <div class="notes-box" style="margin-bottom:28px;">
-        <div id="api-key-row" style="display:flex;gap:8px;align-items:center;">
-          <input type="password" id="api-key-input" class="search-input" placeholder="Paste your Anthropic API key (sk-ant-...)" style="flex:1;"/>
-          <button class="save-btn" onclick="saveApiKey()" style="white-space:nowrap;">Save Key</button>
-        </div>
-        <div id="api-key-set" style="display:none;align-items:center;justify-content:space-between;">
-          <span style="font-size:13px;color:var(--accent);">✓ API key saved</span>
-          <button class="save-btn" onclick="clearApiKey()">Change key</button>
-        </div>
-        <div style="font-size:11px;color:var(--dim);margin-top:8px;">Your key is stored only in your browser and never sent anywhere except the Anthropic API.</div>
-      </div>
       <div class="sec-title">Weekly notes</div>
       <div class="notes-box">
         <div class="notes-top">
